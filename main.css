@@ -1,0 +1,19 @@
+/*Navigation Bar*/
+.navbar .list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    width: 200px;
+    background-color: #313A35;
+  }
+
+.navbar .button {
+    display: block;
+    color: white;
+    padding: 8px 0 8px 16px;
+  }
+
+.navbar .button:hover {
+    background-color: #f1f1f1;
+    color: white;
+}
