@@ -1,19 +1,14 @@
-/*Navigation Bar*/
-.navbar .list {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
+div.corner {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
     width: 200px;
-    background-color: #313A35;
-  }
-
-.navbar .button {
-    display: block;
-    color: white;
-    padding: 8px 0 8px 16px;
-  }
-
-.navbar .button:hover {
-    background-color: #f1f1f1;
-    color: white;
+    height: 150px; 
 }
+
+div.sidebar {
+    	background-color:black;
+    	color:white;
+    	margin-right:900px;
+    	padding:20px;
+	} 
