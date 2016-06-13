@@ -8,17 +8,49 @@
     background-color: #313A35;
   }
 
-.navbar .button {
+.navbar .button_top {
     border-radius: 15px;
     color: white;
     padding: 8px;
+    text-align: center;
+  }
+
+.navbar .button_top:hover {
+	border-radius: 12px 12px 0px 0px;
+    background-color: #f1f1f1;
+    color: white;
+    width: 185px;
+    height: 20px;
+    margin: 0px;
+
+}
+
+.navbar .button {
+    display: block;
+    color: white;
+    padding: 8px;
+    text-align: center;
   }
 
 .navbar .button:hover {
     background-color: #f1f1f1;
     color: white;
-    width: 180px;
-    height: 10px;
+    width: 185px;
     margin: 0px;
-    padding: 10px;
+}
+
+.navbar .button_bottom {
+    border-radius: 15px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+  }
+
+.navbar .button_bottom:hover {
+	border-radius: 0px 0px 12px 12px;
+    background-color: #f1f1f1;
+    color: white;
+    width: 185px;
+    height: 20px;
+    margin: 0px;
 }
